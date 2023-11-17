@@ -282,7 +282,8 @@ img.ye-tour{
     padding-inline-start: 0px;
 } 
 .btn-primary:hover{
-    padding: 8px;
+    background-color: orange;
+    padding: none;
 }
 .btn-primary:active{
     background-color: orange;
