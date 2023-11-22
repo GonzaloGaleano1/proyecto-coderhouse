@@ -1,0 +1,44 @@
+@media only screen and (min-width: 768px) {
+	.nav__toggle {
+		display: none;
+	}
+	.nav__menu {
+		flex-direction: row;
+		li {
+			display: block;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	img {
+		.ye-tour {
+			max-width: 1140px;
+			max-height: 1140px;
+		}
+	}
+}
+@media (min-width: 992px) {
+	img {
+		.ye-tour {
+			max-width: 960px;
+			max-height: 960px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	img {
+		.ye-tour {
+			max-width: 720px;
+			max-width: 720px;
+			left: 5%;
+		}
+	}
+}
+@media (min-width: 576px) {
+	img {
+		.ye-tour {
+			max-width: 540px;
+			max-height: 540px;
+		}
+	}
+}
