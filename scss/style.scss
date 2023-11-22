@@ -7,6 +7,7 @@ $font-family_1: 'Rubik', sans-serif;
 $background-color_1: rgb(0, 0, 0);
 $background-color_2: orange;
 $background-color_3: rgb(230, 196, 3);
+$color-hover: rgb(255, 251, 0);
 
 * {
 	text-decoration: none;
@@ -15,7 +16,9 @@ body {
 	background-color: $background-color_1;
 	font-family: $font-family_1;
 }
-
+h1{
+	color: $color_2;
+}
 .inicio_ini {
     color: $background-color_2;
 	width: 100%;
@@ -34,7 +37,8 @@ h1.discografia {
 	color: $color_2;
 }
 footer {
-	top: 800px;
+	position: relative;
+	top: auto;
 	background-color: $background-color_2;
 	width: 100%;
 	.tw {
@@ -102,6 +106,14 @@ footer {
 }
 .navegacion-menu {
 	border-bottom: 1px solid grey;
+}
+.nav_item{
+	width: auto;
+	padding: 10px;
+	transition: all 0.5s ease;
+}
+.nav_item:hover{
+	padding: 5px;
 }
 .nav__toggle {
 	position: absolute;
@@ -178,7 +190,7 @@ a {
 	}
 	&:hover {
 		font-weight: bold;
-		background-color: $background-color_3;
+		background-color: $color-hover;
 		color: $color_3;
 	}
 }
@@ -199,7 +211,7 @@ img.kanye-1 {
 	border-radius: 16px;
 	position: relative;
 	left: 500px;
-	bottom: 750px;
+	bottom: 700px;
 	opacity: 70%;
 }
 .texto-artista {
@@ -216,7 +228,7 @@ img.kanye {
 	left: 50%;
 	right: 50%;
 	transform: translate(-50%);
-	width: 900px;
+	width: 1000px;
 	height: 400px;
 }
 h2.discografia{
@@ -256,44 +268,44 @@ h2.discografia{
 }
 .novia-ye {
 	width: 300px;
-	padding: 10px;
+	padding: 15px;
 }
 .donda-ye {
 	width: 340px;
-	padding: 10px;
+	padding: 15px;
 }
 .yeezus {
 	width: 300px;
 	height: 250px;
-	padding: 10px;
+	padding: 15px;
 }
 .julia-ye {
 	width: 350px;
-	padding: 10px;
+	padding: 15px;
 }
 .ye-kim {
 	width: 310px;
-	padding: 10px;
+	padding: 15px;
 }
 .ye-colom {
 	width: 300px;
-	padding: 10px;
+	padding: 15px;
 }
 .kanye-desfile {
 	width: 300px;
-	padding: 10px;
+	padding: 15px;
 }
 .grammy {
 	width: 300px;
-	padding: 10px;
+	padding: 15px;
 }
 .kanye-2 {
 	width: 300px;
-	padding: 10px;
+	padding: 15px;
 }
 .kanye-3 {
 	width: 300px;
-	padding: 10px;
+	padding: 15px;
 }
 .tour {
 	color: $color_2;
@@ -302,7 +314,9 @@ img.ye-tour {
 	width: 700px;
 	height: 500px;
 	position: relative;
-	left: 30%;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%);
 }
 .list-group {
 	list-style-type: disc;
@@ -316,17 +330,22 @@ img.ye-tour {
 	&:hover {
 		background-color: $background-color_2;
 		padding: none;
+		transition: all ease 0.5s;
+		padding: 5px;
 	}
 	&:active {
 		background-color: $background-color_2;
 		color: $color_1;
+		transition: all ease 0.5s;
 	}
 	&:link {
 		color: $color_1;
+		transition: all ease 0.5s;
 	}
 	&:visited {
 		background-color: $background-color_2;
 		color: $color_3;
+		transition: all ease 0.5s;
 	}
 	background-color: $background-color_2;
 }
@@ -377,6 +396,21 @@ img.ye-tour {
 		}
 	}
 }
+.img-container{
+	height: 450px;
+    width: 40%;
+    background-color: red;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+	border-radius: 10px;
+	background-image: url(../img/kanyew.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px #222;
+
+}
 .contacto {
 	margin-bottom: 15px;
 	font-size: 2em;
@@ -389,6 +423,7 @@ img.ye-tour {
 	line-height: 1.6;
 	margin-bottom: 30px;
 }
+
 textarea {
 	width: 100%;
 	padding: 15px 10px;

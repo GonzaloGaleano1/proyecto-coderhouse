@@ -1,3 +1,19 @@
+$vista:mobile;
+$h1Desktop: 3rem;
+$h1Mobile: 1.2rem;
+body{
+	@if $vista == desktop{
+		@media only screen and (min-width:1024px){
+			h1{font-size: $h1Desktop;}
+		}
+	} @else if $vista == mobile{
+		@media only screen and (max-width: 768px){
+			h1{font-size: $h1Mobile;}
+		}
+	} @else{
+		h1{font-size: 1rem;}
+	}
+}
 @media only screen and (min-width: 768px) {
 	.nav__toggle {
 		display: none;
@@ -42,3 +58,4 @@
 		}
 	}
 }
+ 
