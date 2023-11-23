@@ -37,20 +37,34 @@
 
     </nav>
     <!-- Formulario -->
-    <h1 class="contacto">Contacto</h1>
-    <p class="contacto-p">Nos gustaría conocerte y saber tu opinion sobre la pagina,saber que cambiarías, contenidos que
-        desees ver, etc. Tu opinion es de gran interes!</p>
-
-    <section class="container-form">
-        <form action="" method="post">
-            <label for="Nombre"></label>
-            <input class="campo" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
-            <label for="Email"></label>
-            <input class="campo" type="text" id="email" name="email" placeholder="Ingrese su email de contacto">
-            <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
-            <input type="submit" name=enviar value="Enviar" class="btn-enviar">
-        </form>
-    </section>
+    <div class="container pt-3 body_style mb-5">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-8 col-lg-8 text-left">
+                <h1 class="mt-5">Contacto</h1>
+                <p class="lead text-white texto-contacto">Nos gustaría conocerte y saber tu opinion sobre la
+                    pagina,saber que cambiarías, contenidos que desees ver, etc. Tu opinion es de gran interes!</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email de contacto">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Ingresa tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

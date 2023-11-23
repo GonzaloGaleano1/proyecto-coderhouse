@@ -83,6 +83,10 @@ a:hover {
   padding-top: 1rem;
 }
 
+.body_style {
+  color: white;
+}
+
 .img-fluid {
   position: relative;
   top: 100px;
@@ -150,7 +154,7 @@ h2.discografia {
 }
 
 .donda-ye {
-  width: 340px;
+  width: 310px;
   padding: 15px;
 }
 
@@ -201,7 +205,7 @@ h2.discografia {
 
 .parallax {
   background-image: url(../img/7121685.jpg);
-  height: 350px;
+  height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -302,6 +306,10 @@ h2.discografia {
   background-size: cover;
   border-radius: 2px;
   box-shadow: 1px 1px 4px #222;
+}
+
+.texto-contacto {
+  font-size: 1.4em;
 }
 
 .contacto {

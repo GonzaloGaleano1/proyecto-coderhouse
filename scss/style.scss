@@ -4,6 +4,7 @@ $color_3: black;
 $color_4: initial;
 $color_5: rgb(255, 255, 255);
 $font-family_1: 'Rubik', sans-serif;
+$fuentecontacto: 1.4em;
 $background-color_1: rgb(0, 0, 0);
 $background-color_2: orange;
 $background-color_3: rgb(230, 196, 3);
@@ -12,9 +13,11 @@ $color-hover: rgb(255, 251, 0);
 * {
 	text-decoration: none;
 }
+
 body {
 	background-color: $background-color_1;
 	font-family: $font-family_1;
+	
 }
 h1{
 	color: $color_2;
@@ -91,6 +94,9 @@ a {
 .pt-3{
 	padding-top: 1rem;
 }
+.body_style{
+	color: white;
+}
 .img-fluid{
 	position: relative;
 	top: 100px;
@@ -150,7 +156,7 @@ h2.discografia{
 	padding: 15px;
 }
 .donda-ye {
-	width: 340px;
+	width: 310px;
 	padding: 15px;
 }
 .yeezus {
@@ -191,7 +197,7 @@ h2.discografia{
 }
 .parallax{
 	background-image: url(../img/7121685.jpg);
-	height: 350px;
+	height: 400px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -290,7 +296,9 @@ h2.discografia{
     box-shadow: 1px 1px 4px #222;
 
 }
-
+.texto-contacto{
+	font-size: $fuentecontacto;
+}
 .contacto {
 	margin-bottom: 15px;
 	font-size: 2em;
