@@ -40,12 +40,12 @@ footer {
 
 .navbar {
   background-color: orange;
-}
-.navbar .nav-item {
-  position: relative;
-  left: 700px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* .nav-item{
+  	position: relative;
+  	left: 700px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  } */
 }
 
 .nav-item a:hover {
@@ -119,7 +119,7 @@ h2.discografia {
   left: 20%;
 }
 
-.parallaxxxx {
+.img-k {
   background-image: url(../img/73013-2048x1365-desktop-hd-kanye-west-background.jpg);
   background-size: cover;
   height: 450px;
@@ -155,13 +155,13 @@ h2.discografia {
 }
 
 .yeezus {
-  width: 300px;
+  width: 250px;
   height: 250px;
   padding: 15px;
 }
 
 .julia-ye {
-  width: 350px;
+  width: 310px;
   padding: 15px;
 }
 
@@ -363,6 +363,20 @@ textarea {
   img .ye-tour {
     max-width: 100%;
     max-height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 992px) {
+  .nav-item {
+    position: relative;
+    left: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (min-width: 1200px) {
