@@ -57,22 +57,7 @@ body{
 	}
   }
 
-
-@media (min-width: 992px){
-	.navbar-expand-lg{
-		flex-flow: row nowrap;
-		justify-content: flex-start;
-	}
-} 
-@media (min-width: 992px){
-	.nav-item{
-		position: relative;
-		left: 700px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-}
-  @media (min-width: 1200px) {
+/*   @media (min-width: 1200px) {
 	img {
 		.kanye {
 			max-width: 100%;
@@ -104,4 +89,4 @@ body{
 			max-height: 350px;
 		}
 	}
-}
+} */

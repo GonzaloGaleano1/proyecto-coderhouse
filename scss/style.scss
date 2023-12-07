@@ -55,15 +55,14 @@ footer {
 		padding-right: 10px;
 	} */
 }
+.navbar_style ul li a:hover{
+	color: orange !important;
+}
 .nav-item{
-	a{
 	&:hover{
+		border-bottom: 1px solid white;
 		transition: all 0.3s ease;
 		font-weight: bold;
-	}
-	&:active{
-		color: yellow;
-	}
 	}
 }
 
@@ -79,28 +78,34 @@ a {
 	&:link {
 		color: $color_3;
 	}
-	&:active {
-		background-color: $background-color_3;
-		color: $color_3;
-	}
+
 	&:visited {
 		color: $color_3;
 	}
 	&:hover {
+		color: rgb(146, 95, 1);
 		font-weight: bold;
-		color: $color_3;
+		
 	}
+}
+.img-kanye{
+	position: relative;
+	top: 150px;
+	border-radius: 15px;
+
+}
+.lead{
+	padding: 10px;
+	font-size: 18px;
 }
 .pt-3{
 	padding-top: 1rem;
 }
 .body_style{
-	color: white;
+	color: rgb(3, 3, 3);
 }
-.img-fluid{
-	position: relative;
-	top: 100px;
-	border-radius: 15px;
+.texto-contacto{
+	font-size: 25px;
 }
 .texto-artista {
 	color: $color_2;
@@ -127,83 +132,24 @@ h2.discografia{
 	left: 20%
 }
 
-.img-k{
-	background-image: url(../img/73013-2048x1365-desktop-hd-kanye-west-background.jpg);
-	background-size: cover;
-	height: 450px;
-	background-attachment: fixed;
 
-}
-
-
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-auto-rows: minmax(200px, auto);
-	gap: 20px;
-	padding: 20px;
-}
-.grid-item {
-	border-radius: 15px;
-	gap: 10px;
-	padding: 10px;
-}
 .galeria-tex {
 	color: $color_2;
-}
-.novia-ye {
-	width: 300px;
-	padding: 15px;
-}
-.donda-ye {
-	width: 310px;
-	padding: 15px;
-}
-.yeezus {
-	width: 250px;
-	height: 250px;
-	padding: 15px;
-}
-.julia-ye {
-	width: 310px;
-	padding: 15px;
-}
-.ye-kim {
-	width: 310px;
-	padding: 15px;
-}
-.ye-colom {
-	width: 300px;
-	padding: 15px;
-}
-.kanye-desfile {
-	width: 300px;
-	padding: 15px;
-}
-.grammy {
-	width: 300px;
-	padding: 15px;
-}
-.kanye-2 {
-	width: 300px;
-	padding: 15px;
-}
-.kanye-3 {
-	width: 300px;
-	padding: 15px;
 }
 .tour {
 	color: $color_2;
 }
 .parallax{
-	background-image: url(../img/7121685.jpg);
-	height: 400px;
+	background-image: url(../img/black-monochrome-night-photography-music-musician-222302-wallhere.com.jpg);
+	height: 500px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .list-group {
+	color: black;
+	background-color: black;
 	list-style-type: disc;
 	margin-block-start: 1em;
 	margin-block-end: 1em;
@@ -213,15 +159,14 @@ h2.discografia{
 }
 .btn-primary {
 	&:hover {
-		background-color: $background-color_2;
-		padding: 7px;
+		background-color: $background-color_2 !important;
 		transition: all ease 0.5s;
 	font-weight: bold;
 	}
 	&:active {
 		background-color: $background-color_2;
 		color: $color_1;
-		transition: all ease 0.5s;
+		transition:0.5s;
 	}
 	&:link {
 		color: $color_1;
