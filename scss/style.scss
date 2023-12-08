@@ -90,7 +90,7 @@ a {
 }
 .img-kanye{
 	position: relative;
-	top: 150px;
+	top: 200px;
 	border-radius: 15px;
 
 }
@@ -131,7 +131,9 @@ h2.discografia{
 	position: relative;
 	left: 20%
 }
-
+ .main_titule{
+	font-size: 2rem;
+ }
 
 .galeria-tex {
 	color: $color_2;
@@ -140,8 +142,8 @@ h2.discografia{
 	color: $color_2;
 }
 .parallax{
-	background-image: url(../img/black-monochrome-night-photography-music-musician-222302-wallhere.com.jpg);
-	height: 500px;
+	background-image: url(../img/tour-modificado.jpg);
+	height: 550px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;

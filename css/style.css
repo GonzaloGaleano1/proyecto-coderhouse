@@ -79,7 +79,7 @@ a:hover {
 
 .img-kanye {
   position: relative;
-  top: 150px;
+  top: 200px;
   border-radius: 15px;
 }
 
@@ -130,6 +130,10 @@ h2.discografia {
   left: 20%;
 }
 
+.main_titule {
+  font-size: 2rem;
+}
+
 .galeria-tex {
   color: white;
 }
@@ -139,8 +143,8 @@ h2.discografia {
 }
 
 .parallax {
-  background-image: url(../img/black-monochrome-night-photography-music-musician-222302-wallhere.com.jpg);
-  height: 500px;
+  background-image: url(../img/tour-modificado.jpg);
+  height: 550px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -307,6 +311,30 @@ textarea {
   img .ye-tour {
     max-width: 100%;
     max-height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .img-kanye {
+    position: relative;
+    top: 100px;
+  }
+}
+@media (min-width: 412px) {
+  .img-kanye {
+    position: relative;
+    top: 0;
+  }
+}
+@media (min-width: 375px) {
+  .img-kanye {
+    position: relative;
+    top: 0;
+  }
+}
+@media (min-width: 360px) {
+  .img-kanye {
+    position: relative;
+    top: 0;
   }
 }
 /*   @media (min-width: 1200px) {
