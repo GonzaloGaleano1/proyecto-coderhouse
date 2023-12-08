@@ -77,10 +77,31 @@ a:hover {
   font-weight: bold;
 }
 
+.texto-contacto {
+  font-size: 2em;
+}
+
+.nav-item {
+  font-size: bold;
+}
+
+.list-group-item {
+  background-color: black;
+  font-size: 20px;
+}
+
+.navbar_style {
+  font-size: 15px;
+}
+
 .img-kanye {
+  display: flex;
   position: relative;
   top: 200px;
-  border-radius: 15px;
+}
+
+footer a {
+  margin: 3%;
 }
 
 .lead {
@@ -322,13 +343,13 @@ textarea {
 @media (min-width: 412px) {
   .img-kanye {
     position: relative;
-    top: 0;
+    top: 150px;
   }
 }
 @media (min-width: 375px) {
   .img-kanye {
     position: relative;
-    top: 0;
+    top: 150px;
   }
 }
 @media (min-width: 360px) {
